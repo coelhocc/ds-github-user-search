@@ -1,5 +1,6 @@
 import Button from 'core/components/Button';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss'
 
 const Home = () => {
@@ -21,7 +22,9 @@ const Home = () => {
         </h6>
       </div>
       <div className="button-div">
-        <Button text="Começar" />
+        <Link to="/search">
+          <Button text="Começar" />
+        </Link>
       </div>
     </div>
   );
