@@ -1,8 +1,6 @@
 .search-div-container {
   height: 270px;
-  padding-top: 55px;
-  padding-left: 90px;
-  padding-right: 100px;
+  padding: 55px 100px 17px 90px;
 }
 
 .search-box-content {
@@ -27,4 +25,44 @@
   box-sizing: border-box;
   border-radius: 4px;
   margin-bottom: 25px;
+}
+
+.result-div-container {
+  margin-top: 54px;
+  margin-bottom: 75px;
+  height: 387px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  padding: 23px 23px 27px 30px;
+  display: flex;
+}
+
+.git-avatar {
+  width: 284px;
+  height: 280px;padding-bottom: 17px;
+}
+
+.result-git-div-content {
+  width: 100%;
+  padding-left: 45px;
+  flex: 1;
+}
+
+.result-git-div-header {
+  display: flex;
+}
+
+.result-git-div-datails {
+  width: 870px;
+  padding: 8px 17px 17px 15px;
+  background: #FFF;
+}
+
+.result-git-title {
+  height: 28px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1890FF;
+  padding-bottom: 14px;
 }

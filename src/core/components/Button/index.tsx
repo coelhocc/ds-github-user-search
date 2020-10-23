@@ -6,9 +6,14 @@ type Props = {
 }
 
 const Button = ({ text }: Props) => (
-  <button className="button-content">
-     <h5 className="button-text">{text}</h5>
-  </button>
+  <span>
+    <button 
+      className="btn-content"
+      type="submit"
+    >
+      <h5 className="btn-text">{text}</h5>
+    </button>
+  </span>
 );
 
 export default Button;
