@@ -59,9 +59,9 @@ const Search = () => {
                 className="git-avatar"
               />
             <br/>
-            <Link to={`https://api.github.com/users/${search}`}>
+            <a href={userData?.html_url} target="_blank" >
               <Button text="Ver perfil" />
-            </Link>
+            </a>
           </div>
         }
         {isLoading ? <InfoLoader /> : (
